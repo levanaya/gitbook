@@ -1,0 +1,35 @@
+{
+  "title": "hamster使用文档",
+  "description": "hamster使用手册",
+  "language": "en",
+  "gitbook": "3.2.3",
+  "styles": {
+    "website": "./styles/website.css"
+  },
+  "structure": {
+    "readme": "README.md"
+  },
+  "links": {},
+  "plugins": [ "splitter", "intopic-toc", "-highlight", "prism", "prism-themes","back-to-top-button"],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "fontSettings": {
+      "family": "serif",
+      "size": 3
+    },
+    "intopic-toc": {
+      "label": {
+        "de": "In diesem Artikel",
+        "en": "In this article",
+        "zh": "本篇章节"
+      }
+    },
+    "prism": {
+      "css": ["prism-themes/themes/prism-duotone-dark.css"]
+    }
+  }
+}
+
+

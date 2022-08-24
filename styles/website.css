@@ -1,0 +1,13 @@
+.gitbook-link {
+    display: none !important;
+}
+#book-search-results .search-results .has-results .search-results-item{
+    color: #bdcadb;
+}
+.book.color-theme-2 .book-header .btn,.color-theme-2 .dropdown-menu .button{
+    color: #9DAAB6;
+}
+#book-search-input {
+    padding: 0;
+}
+
