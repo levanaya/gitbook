@@ -16,6 +16,7 @@
       "showLevel": true
     },
     "fontSettings": {
+      "theme": "night", 
       "family": "serif",
       "size": 3
     },
@@ -27,7 +28,7 @@
       }
     },
     "prism": {
-      "css": ["prism-themes/themes/prism-duotone-dark.css"]
+      "css": ["prismjs/themes/prism-dark.css"]
     }
   }
 }
