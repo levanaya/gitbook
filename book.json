@@ -10,15 +10,24 @@
     "readme": "README.md"
   },
   "links": {},
-  "plugins": [ "splitter", "intopic-toc", "-highlight", "prism", "prism-themes","back-to-top-button"],
+  "plugins": [
+    "splitter",
+    "intopic-toc",
+    "-highlight",
+    "prism",
+    "prism-themes",
+    "back-to-top-button",
+    "-sharing",
+    "github"
+  ],
   "pluginsConfig": {
     "theme-default": {
       "showLevel": true
     },
     "fontsettings": {
       "theme": "night",
-      "family": "serif",
-      "size": 3
+      "family": "sans",
+      "size": 2
     },
     "intopic-toc": {
       "label": {
@@ -29,8 +38,9 @@
     },
     "prism": {
       "css": ["prism-themes/themes/prism-duotone-dark.css"]
+    },
+    "github": {
+      "url": "https://github.com/hamster-shared"
     }
   }
 }
-
-
