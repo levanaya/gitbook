@@ -18,7 +18,7 @@
     "prism-themes",
     "back-to-top-button",
     "-sharing",
-    "github"
+    "scripts"
   ],
   "pluginsConfig": {
     "theme-default": {
@@ -39,8 +39,30 @@
     "prism": {
       "css": ["prism-themes/themes/prism-duotone-dark.css"]
     },
-    "github": {
-      "url": "https://github.com/hamster-shared"
+    "links": [
+      {
+        "name": "Github",
+        "icon": "fa-brands fa-github",
+        "url": "https://github.com/hamster-shared"
+      },
+      {
+        "name": "Twitter",
+        "icon": "fa-brands fa-twitter",
+        "url": "https://twitter.com/Hamsternetio"
+      },
+      {
+        "name": "Discord",
+        "icon": "fa-brands fa-discord",
+        "url": "https://discord.gg/MrJWxRwXpb"
+      },
+      {
+        "name": "Medium",
+        "icon": "fa-brands fa-medium",
+        "url": "https://medium.com/@Hamsternetio"
+      }
+    ],
+    "scripts": {
+      "files": ["./javascripts/links.js"]
     }
   }
 }
